@@ -1,0 +1,3 @@
+## Authentication vs Authorization
+- 'authentication' is the process of verifying who someone is.
+- 'authorization' is the process of verifying what specific applications, files, and data a user has access to.

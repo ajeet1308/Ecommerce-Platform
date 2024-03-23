@@ -6,7 +6,6 @@ const validateMongoDbId = require("../utils/validateMongoDBId");
 const jwt = require("jsonwebtoken");
 
 const createUser = asyncHandler(async (req, res) => {
-  console.log("inside");
   const email = req.body.email;
   const findUser = await User.findOne({ email: email });
   if (!findUser) {
@@ -49,7 +48,6 @@ const loginUserCtrl = asyncHandler(async (req, res) => {
   } else {
     throw new Error("Invalid Credentials");
   }
-  console.log(email, password);
 });
 
 // handle refresh token
