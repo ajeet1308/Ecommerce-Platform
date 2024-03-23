@@ -1,3 +1,17 @@
 ## Authentication vs Authorization
 - 'authentication' is the process of verifying who someone is.
 - 'authorization' is the process of verifying what specific applications, files, and data a user has access to.
+
+## Api query params Operation
+- Filtering
+    - `?genre=action` - filter by genre (Action)
+
+- Pagination 
+    - `?page=2&limit=10` - get page 2 with a limit of 10 results per page
+
+- Sorting
+    - `sort=name` : sorts by name in ascending order (A to Z)
+    - `-sort=name` : sorts by name in descending order (Z to A)
+
+- limiting : limiting the fields
+    - `limit=10`: limits the number of results returned from 0 to n,
