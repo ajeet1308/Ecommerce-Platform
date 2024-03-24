@@ -13,6 +13,8 @@ config, controller, middlewares, models, routes, index.js
 (Morgan is a logging tool (middleware) that can be used in HTTP servers implemented using Express & Node.js. It can be used to log requests, errors, and more to the console.)
 - npm i slugify
 (With the help of a slugify function, we convert any string or title into a slug.)
+- npm i nodemailer
+(To send a mail)
 
 
 # Step 4: To continuously listen changes
