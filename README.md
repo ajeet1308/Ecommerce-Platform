@@ -15,6 +15,10 @@ config, controller, middlewares, models, routes, index.js
 (With the help of a slugify function, we convert any string or title into a slug.)
 - npm i nodemailer
 (To send a mail)
+- npm install cloudinary
+(For image uploading and storing in Cloudinary)
+- npm i multer sharp
+(Used for file uploading)
 
 
 # Step 4: To continuously listen changes
