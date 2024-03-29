@@ -19,6 +19,8 @@ config, controller, middlewares, models, routes, index.js
 (For image uploading and storing in Cloudinary)
 - npm i multer sharp
 (Used for file uploading)
+- npm i uniqid
+(User to generate random id)
 
 
 # Step 4: To continuously listen changes
